@@ -1,0 +1,198 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<title>Contact</title>
+		<meta charset="UTF-8">
+    <meta name="description" content="Contact Bristle, Dublin's amazing plant shop where you can find weird plants and growing and caring advice.">
+    <meta name="keywords" content="contact, plant, shop, bristle, stories">
+    <meta name="author" content="Gabriela Antohi">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+	<link rel="stylesheet" type="text/css" href="../vendor/animsition/css/animsition.min.css">
+	<link rel="stylesheet" type="text/css" href="../vendor/slick/slick.css">
+	<link rel="stylesheet" type="text/css" href="../css/main.css">
+
+    <script src="https://use.fontawesome.com/7f06848445.js"></script>
+    <link href="https://fonts.googleapis.com/css?family=Lato" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Playfair+Display" rel="stylesheet">
+
+    <link href="https://fonts.googleapis.com/css?family=Kaushan+Script|Shadows+Into+Light" rel="stylesheet">
+</head>
+<body class="animsition">
+	<!-- Header -->
+<header class="header1">
+		<div class="container-menu-header">
+			<div class="topbar">
+				<div class="topbar-social">
+					<a href="#" class="topbar-social-item fa fa-facebook"></a>
+					<a href="#" class="topbar-social-item fa fa-instagram"></a>
+					<a href="#" class="topbar-social-item fa fa-pinterest-p"></a>
+				</div>
+			</div>
+			<div class="wrap_header">
+                
+				<!-- logo -->
+				<a href="../index.html" class="logo">
+				BRISTLE
+				</a>
+				<!-- nav -->
+				<div class="wrap_menu">	
+				<div id="container">
+					<nav class="menu">
+						<ul class="main_menu">
+							<li>
+								<a href="../index.html">Home</a>
+							</li>
+							<li>
+								<a href="stories.html">Stories</a>
+							</li>
+							<li>
+								<a href="about.html">About</a>
+							</li>
+							<li>
+								<a href="#" class = "selected">Contact</a>
+							</li>
+						</ul>
+					</nav>
+					<div class="mobile">
+                    <span></span>
+                    <span></span>
+                    <span></span>
+                    </div>
+			    </div>	
+				</div>			
+			</div>
+		</div>	   
+	</header>
+<script src='../js/jquery.js'></script>
+<script src="../js/mobile.js"></script>
+
+<section class="background_pages banner_contact">
+	<div class= "contact_header container">
+    <h2>
+			Contact us
+	</h2>
+    <p class = "moto">Ready for a chat?</p>	
+    </div>
+	</section>
+
+    <section class="section_contact">
+	<div class= "container">
+	<h4>Plant Care Help</h4>
+					<p>Need help with your plant? Maybe an id?
+					</p>
+					<p>Put our form to good use. We will get back to you within 24 hours.
+					</p>
+									
+	<h4>Orders</h4>				
+					<p>
+					We don't take online orders but we accept them by email or telephone. Don't hesitate to contact us.
+					</p>
+
+    <h4>Design Advice</h4>				
+					<p>
+					If you have an interior space and no idea what plants will look good in it send us an email with photos, lighting situation and budget and we will get back to you ASAP.
+					</p>
+    <h4>Our Address</h4>				
+					<p>
+					The corner of Dorset and Blessigton St., Ireland.
+					</p>
+	<h4>Opening Hours</h4>				
+					<p>
+					10 to 5, Monday to Saturday
+					</p>
+	<p><strong>Email:</strong> bristle.eu@gmail.com</p>
+	<p><strong>Call:</strong> 0873528937</p>			
+	</div>
+	</section>			
+
+	<section class="section_contact">
+		<div class="container">
+		<h4>Get in touch!</h4>
+			<form id="contactform" name="myForm" action="" onsubmit="return validateForm()" method="post">
+			
+			<label class="required" for="name">First name</label>
+			<input id="name" name="name" required type="text" value="" placeholder="your first name"/>
+			
+			<label class="required" for="surname">Surname</label>
+			<input id="surname" name="surname" required type="text" value="" placeholder="your surname"/>
+			<label for="reason">Why have you chosen to contact us?</label>
+			<div id = "dropdown">
+			<select name="reason">
+            <option value="buy">buy plants</option>
+            <option value="sell">sell pots</option>
+            <option value="event">event</option>
+            <option value="audi">general query</option>
+            </select>
+			</div>
+            <label for="company">Are you contacting us on behalf of a company?</label>
+			<div id = "radio">
+            <input type="radio" name="company" value="yes" checked>Yes<br>
+            <input type="radio" name="company" value="no">No<br>
+			</div>
+			<label for="companyname">Company name</label>
+			<input id="companyname" name="companyname" type="text" value="" placeholder="company name"/>
+			<label class="required" for="email">Email</label>
+			<input id="email" required name="email" type="email" value="" placeholder="your email address"/>	
+			<label class="required" for="message">Message</label>
+			<textarea id="message" required name="message" placeholder="your message here"></textarea>
+			<button class="button" type="submit" form="contactform">Submit</button>
+			
+</form>
+
+		</div>
+	</section>
+
+
+	<!-- Footer -->
+	<footer>
+        <div class="content-width">
+		<div class="inner_container clearfix">
+			<div class="get_in_touch">
+				<h4>
+					Get in touch
+				</h4>
+					<p>
+						Any questions? Let us know by calling or texting (+353) 87 352 8937, email bristle.eu@gmail.com or by using the form above.
+					</p>
+                    <!--social media - icons from fontawesome-->
+					<div class="social">
+						<a href="#" class="color_pink fa fa-facebook"></a>
+						<a href="#" class="color_pink fa fa-instagram"></a>
+						<a href="#" class="color_pink fa fa-pinterest-p"></a>
+					</div>
+				
+			</div>
+
+			<div class="newsletter">
+				<h4>
+					Newsletter
+				</h4>
+
+				<form>
+						<input type="text" name="email" placeholder="your email">
+						<button>
+							Subscribe
+						</button>
+				</form>
+			</div>
+		</div>
+        </div>
+			<div class="vertical">
+				<span></span><p><?php echo date("Y"); ?> &copy; gabrielaantohi.eu</p>
+			</div>
+        
+	</footer>
+
+	<!-- Back to top -->
+	<div class="btn-back-to-top" id="myBtn">
+		<span class="symbol-btn-back-to-top">
+			<i class="fa fa-angle-double-up" aria-hidden="true"></i>
+		</span>
+	</div>
+	<script type="text/javascript" src="../vendor/jquery/jquery-3.2.1.min.js"></script>
+	<script type="text/javascript" src="../vendor/animsition/js/animsition.min.js"></script>
+	<script src="../js/main.js"></script>
+
+</body>
+</html>
